@@ -1,0 +1,59 @@
+@media (min-width: 320px) and (max-width: 450px) {
+   .wrapper,
+   .container {
+       row-gap: 20px;
+   }
+   .header {
+      justify-content: center;
+   }
+   .header__list {
+      display: none;
+   }
+   .travel__text,
+   .main__photo {
+      width: 100%;
+   }
+   .bold__text {
+      margin: 20px 0px;
+      font-size: 18px;
+   }
+   .travel__title {
+       font-size: 32px;
+   }
+   .text,
+   .bold__text,
+   .travel__title {
+      text-align: justify;
+   }
+   .travel {
+      flex-direction: column-reverse;
+      row-gap: 20px;
+      justify-content: center;
+   }
+   .container {
+      grid-template-columns: 100%;
+
+   }
+   .left-1 {
+      grid-row: 1 / 2;
+   }
+   .right-2 {
+      grid-row: 3 / 4;
+   }
+   .center-2 {
+      grid-row: 5 / 6;
+   }
+   .left-2 {
+      grid-row: 7 / 8;
+   }
+   .right,
+   .left,
+   .center {
+       width: 100%;
+   }
+   .footer {
+      height: 100px;
+      justify-content: space-evenly;
+      flex-direction: column;
+   }
+}  

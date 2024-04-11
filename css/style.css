@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+.list__item,
+.text,
+.travel__title
+.bold__text {
+    font-family: "Manrope", sans-serif;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 40px;
+}
+.wrapper, 
+.header,
+.travel,
+.container,
+.last__image,
+.footer {
+    grid-column: 2/12;
+}
+.header{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header__list {
+    font-weight: bold;
+    font-size: 16px;
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+.travel {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 35% 35% 22%;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+.text {
+    font-size: 16px;
+}
+.bold__text {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 0;
+}
+.travel__title {
+    font-size: 36px;
+    font-weight: bold;
+}
+.travel__text {
+   width: 38%; 
+}
+.main__photo {
+    width: 60%;
+}
+.right,
+.center,
+.left{
+    width: 100%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.last__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last__img {
+    width: 100%;
+}
+.footer {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
